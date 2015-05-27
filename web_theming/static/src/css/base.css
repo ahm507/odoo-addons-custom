@@ -1,0 +1,102 @@
+/* My AlGASIM style override for web base.css */
+/* ****************************************************************** */
+/* web/static/static/css/base.css */
+#oe_main_menu_navbar {
+  background-color: #9A3334 !important; }
+
+/* for menu bar, it is important to make the black color transparent */
+a.oe_menu_toggler {
+  background-color: transparent !important; }
+
+/* Make required fields light red */
+.openerp .oe_form .oe_form_required input:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required select:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required textarea:not([disabled]):not([readonly]) {
+  background-color: #eecece !important; }
+
+/* menu group title text color */
+.openerp .oe_secondary_menu_section {
+  color: #9A3334 !important; }
+
+/*oe_menu_leaf */
+a.span.oe_menu_text {
+  color: #9A3334 !important; }
+
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+  background: #9A3334; }
+
+.openerp .ui-widget-content a {
+  color: #9A3334; }
+
+.openerp .oe_stat_button .stat_button_icon {
+  color: #9A3334; }
+
+.openerp .oe_stat_button:hover {
+  background: #9A3334; }
+
+.openerp .oe_button.oe_link span {
+  color: #9A3334; }
+
+.openerp .oe_tag_dark {
+  background: #9A3334; }
+
+.openerp .oe_secondary_menu_section {
+  color: #9A3334; }
+
+.openerp .oe_application a {
+  color: #9A3334; }
+
+.openerp .oe_view_manager table.oe_view_manager_header h2 a {
+  color: #9A3334; }
+
+.openerp .oe_searchview .oe-autocomplete ul li.oe-selection-focus {
+  background-color: #9A3334; }
+
+.openerp .oe_searchview_drawer dt {
+  color: #9A3334; }
+
+.openerp .oe_horizontal_separator {
+  color: #9A3334; }
+
+.openerp .oe_fileupload .oe_add button.oe_attach {
+  color: #9A3334; }
+
+.openerp .oe_fileupload .oe_add .oe_attach_label {
+  color: #9A3334; }
+
+.openerp ul.oe_form_status_clickable li > .label {
+  color: #9A3334; }
+
+.openerp .nav-pills > li.active > a, .openerp a.list-group-item.active > a {
+  background-color: #9A3334; }
+
+.openerp .nav-pills > li.active a:hover, .openerp .nav-pills > li.active a:focus, .openerp a.list-group-item.active a:hover, .openerp a.list-group-item.active a:focus {
+  background-color: #9A3334; }
+
+.openerp .nav-pills > li.active .badge, .openerp a.list-group-item.active .badge {
+  color: #9A3334; }
+
+.openerp .badge {
+  background-color: #9A3334; }
+
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+  background: #9A3334; }
+
+/* ****************************************************************** */
+/* ****************************************************************** */
+/* WORKFLOW BUTTON */
+.openerp ul.oe_form_status li.oe_active, .openerp ul.oe_form_status_clickable li.oe_active {
+  background-color: #9A3334;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cc8a8a), to(#9A3334));
+  background-image: -webkit-linear-gradient(top, #cc8a8a, #9A3334);
+  background-image: -moz-linear-gradient(top, #cc8a8a, #9A3334);
+  background-image: -ms-linear-gradient(top, #cc8a8a, #9A3334);
+  background-image: -o-linear-gradient(top, #cc8a8a, #9A3334);
+  background-image: linear-gradient(to bottom, #cc8a8a, #9A3334); }
+
+.openerp ul.oe_form_status li.oe_active > .arrow span, .openerp ul.oe_form_status_clickable li.oe_active > .arrow span {
+  background-color: #9A3334;
+  background: -moz-linear-gradient(135deg, #9A3334, #cc8a8a);
+  background: -o-linear-gradient(135deg, #cc8a8a, #9A3334);
+  background: -webkit-gradient(linear, left top, right bottom, from(#cc8a8a), to(#9A3334));
+  background: -ms-linear-gradient(top, #cc8a8a, #9A3334); }
+
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,119 @@
+@charset "utf-8"
+
+/* ****************************************************************** */
+/* web/static/static/css/base.css */
+
+
+// Variables {{{
+$dark-red:  #9A3334 //9A3334 instead of 7C7BAD
+$light-red: #eecece //
+//Workflow buttons colors
+$lighter-red: #cc8a8a //eecece instead of 729fcf
+$darker-red: #9A3334 //a95859 instead of 3465a4
+// }}}
+
+
+#oe_main_menu_navbar 
+    background-color: $dark-red !important
+
+/* for menu bar, it is important to make the black color transparent*/
+a.oe_menu_toggler 
+    background-color: transparent !important
+
+/* Make required fields light red */
+.openerp .oe_form .oe_form_required input:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required select:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required textarea:not([disabled]):not([readonly]) 
+    background-color: $light-red !important
+
+
+/* menu group title text color*/
+.openerp .oe_secondary_menu_section 
+    color: $dark-red !important
+
+
+/*oe_menu_leaf*/
+a.span.oe_menu_text
+    color: $dark-red !important
+
+
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active 
+    background: $dark-red
+
+
+.openerp .ui-widget-content a 
+    color: $dark-red
+
+.openerp .oe_stat_button .stat_button_icon 
+    color: $dark-red
+
+.openerp .oe_stat_button:hover 
+    background: $dark-red
+
+.openerp .oe_button.oe_link span 
+    color: $dark-red
+
+.openerp .oe_tag_dark 
+    background: $dark-red
+
+.openerp .oe_secondary_menu_section 
+    color: $dark-red
+
+.openerp .oe_application a 
+    color: $dark-red
+
+.openerp .oe_view_manager table.oe_view_manager_header h2 a 
+    color: $dark-red
+
+.openerp .oe_searchview .oe-autocomplete ul li.oe-selection-focus 
+    background-color: $dark-red
+
+.openerp .oe_searchview_drawer dt 
+    color: $dark-red
+
+.openerp .oe_horizontal_separator 
+    color: $dark-red
+
+.openerp .oe_fileupload .oe_add button.oe_attach 
+    color: $dark-red
+
+.openerp .oe_fileupload .oe_add .oe_attach_label 
+    color: $dark-red
+
+.openerp ul.oe_form_status_clickable li > .label 
+    color: $dark-red
+
+.openerp .nav-pills > li.active > a, .openerp a.list-group-item.active > a 
+    background-color: $dark-red
+
+.openerp .nav-pills > li.active a:hover, .openerp .nav-pills > li.active a:focus, .openerp a.list-group-item.active a:hover, .openerp a.list-group-item.active a:focus 
+    background-color: $dark-red
+
+.openerp .nav-pills > li.active .badge, .openerp a.list-group-item.active .badge 
+    color: $dark-red
+
+.openerp .badge 
+    background-color: $dark-red
+
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active 
+    background: $dark-red
+
+
+/* ****************************************************************** */
+/* WORKFLOW BUTTONS */
+
+.openerp ul.oe_form_status li.oe_active, .openerp ul.oe_form_status_clickable li.oe_active 
+    background-color: $darker-red
+    background-image: -webkit-gradient(linear, left top, left bottom, from($lighter-red), to($darker-red))
+    background-image: -webkit-linear-gradient(top, $lighter-red, $darker-red)
+    background-image: -moz-linear-gradient(top, $lighter-red, $darker-red)
+    background-image: -ms-linear-gradient(top, $lighter-red, $darker-red)
+    background-image: -o-linear-gradient(top, $lighter-red, $darker-red)
+    background-image: linear-gradient(to bottom, $lighter-red, $darker-red)
+
+.openerp ul.oe_form_status li.oe_active > .arrow span, .openerp ul.oe_form_status_clickable li.oe_active > .arrow span 
+    background-color: $darker-red
+    background: -moz-linear-gradient(135deg, $darker-red, $lighter-red)
+    background: -o-linear-gradient(135deg, $lighter-red, $darker-red)
+    background: -webkit-gradient(linear, left top, right bottom, from($lighter-red), to($darker-red))
+    background: -ms-linear-gradient(top, $lighter-red, $darker-red)
+
+
